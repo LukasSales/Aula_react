@@ -1,0 +1,39 @@
+.header {
+    background: var(--black);
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    flex-shrink: 0;
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > img {
+    width: 22px;
+    height: 36px;
+    flex-shrink: 0; 
+    margin-right: 0.75rem;
+}
+
+.logoEspaco strong {
+    font-family: Inter, sans-serif;
+}
+
+.to {
+    color: var(--blue);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.do {
+    color: var(--purple-dark);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
